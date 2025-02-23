@@ -1,4 +1,5 @@
 # How OOP is Used in This Flutter UI
+
 Encapsulation:
 
 BankAccountController keeps _balance private and exposes it via an RxDouble observable.
@@ -13,3 +14,10 @@ BankAccountController extends GetxController, inheriting state management capabi
 Polymorphism (Indirectly Applied):
 
 The Get.snackbar() function dynamically shows different messages based on transaction type.
+
+# Flutter’s entire widget system is built on OOP principles!
+
+Encapsulation → Private variables in StatefulWidget.
+Inheritance → Extending StatelessWidget or StatefulWidget.
+Polymorphism → Overriding build() method.
+Abstraction → Abstract classes like ChangeNotifier in Provider.

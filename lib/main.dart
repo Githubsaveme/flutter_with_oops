@@ -87,3 +87,5 @@ class BankAccountScreen extends StatelessWidget {
     );
   }
 }
+
+//Encapsulation (Data Hiding & Controlled Access)
